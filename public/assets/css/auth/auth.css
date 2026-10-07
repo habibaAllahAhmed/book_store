@@ -1,0 +1,91 @@
+body {
+    background-color: #f7f4ed;
+    border-top: 1px solid #e6e2d3;
+}
+
+#Register form,
+#Login form {
+    width: 28%;
+}
+
+
+#Login Form,
+#Register form {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(185, 147, 108, 0.30);
+    border-radius: 24px;
+    box-shadow:
+        0 20px 60px rgba(100, 75, 50, 0.15),
+        0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+
+#Login form h2,
+#Register form h2 {
+    color: #8f6d50;
+}
+
+#Login form .form-label,
+#Register form .form-label {
+    color: #594738;
+}
+
+#Login form .form-control,
+#Register form .form-control {
+    background: rgba(255, 255, 255, 0.70);
+    border: 1px solid rgba(185, 147, 108, 0.35);
+    border-radius: 12px;
+    padding: 12px 14px;
+    color: #46372c;
+
+}
+
+#Login .form-control:focus,
+#Register .form-control:focus {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: #b9936c;
+    box-shadow:
+        0 0 0 4px rgba(218, 194, 146, 0.22),
+        0 5px 18px rgba(185, 147, 108, 0.10);
+}
+
+
+#Login form .btn,
+#Register form .btn {
+    margin-top: 12px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    background: #b9936c;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 8px 20px rgba(185, 147, 108, 0.25);
+    transition: all 0.3s ease;
+}
+
+
+#Login form .btn:hover,
+#Register form .btn:hover {
+    background: #8f6d50;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow:
+        0 12px 28px rgba(185, 147, 108, 0.35);
+}
+
+
+#Login form .text-danger,
+#Register form .text-danger {
+    color: #a65d4a !important;
+}
+
+
+#Login form .alert,
+#Register form .alert {
+    border-radius: 12px;
+    border: none;
+    background: rgba(185, 147, 108, 0.12);
+    color: #6b4937;
+}

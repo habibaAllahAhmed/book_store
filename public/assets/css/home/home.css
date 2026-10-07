@@ -1,0 +1,51 @@
+#carouselExampleIndicators {
+    overflow: hidden;
+    background-color: #f7f4ed;
+    border-top: 1px solid #e6e2d3;
+    border-bottom: 1px solid #e6e2d3;
+}
+
+#carouselExampleIndicators h5 {
+    color: #b9936c;
+    margin-bottom: 15px;
+}
+
+#carouselExampleIndicators h2 {
+    color: #46372c;
+    margin-bottom: 20px;
+}
+
+#carouselExampleIndicators p {
+    color: #756555;
+}
+
+
+#carouselExampleIndicators button {
+    background: #b9936c;
+    border: none;
+    color: white;
+}
+
+
+#carouselExampleIndicators .carousel-item img {
+    opacity: 0.4;
+    animation: softLight 3.5s ease-in-out infinite;
+}
+
+@keyframes softLight {
+
+    0% {
+        opacity: 0.4;
+        transform: scale(0.98);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0.4;
+        transform: scale(0.98);
+    }
+}

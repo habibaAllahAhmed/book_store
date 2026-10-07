@@ -1,0 +1,369 @@
+#Profile .container {
+    max-width: initial !important;
+}
+
+#Profile {
+    padding: 45px 0 70px;
+    background-color: #f7f4ed;
+}
+
+#Profile .content:first-child .card {
+    width: 100% !important;
+}
+
+
+#Profile .content:first-child .card-img-top {
+    width: 90px !important;
+    height: 90px;
+    padding: 8px;
+    border-radius: 50%;
+    border: 2px solid #dac292;
+    background: #e6e2d3;
+}
+
+
+#Profile .card-title {
+    color: #46372c;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#Profile .card i {
+    color: #b9936c !important;
+    transition: 0.25s ease;
+}
+
+#Profile .card i:hover {
+    color: #8f6d50 !important;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#Profile .card-body>.row {
+    margin: 8px 0;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(185, 147, 108, 0.15);
+}
+
+
+#Profile .card-body>.row:last-child {
+    border-bottom: none;
+}
+
+
+#Profile .card-body .col-4 p {
+    color: #756555;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+#Profile .card-body .col-8 p {
+    color: #46372c;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+#Profile .content:nth-child(2) {
+    background: rgba(255, 255, 255, 0.72) !important;
+    border: 1px solid rgba(185, 147, 108, 0.25);
+    box-shadow:
+        0 15px 45px rgba(100, 75, 50, 0.10);
+}
+
+#Profile h1,
+#Profile h2,
+#Profile h3,
+#Profile h4,
+#Profile h5,
+#Profile h6 {
+    color: #594738;
+}
+
+
+#Profile .btn-success {
+    background: #dac292 !important;
+    border: none !important;
+    color: #46372c !important;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow:
+        0 6px 18px rgba(185, 147, 108, 0.18);
+}
+
+
+#Profile .btn-success:hover {
+    background: #b9936c !important;
+    color: white !important;
+    transform: translateY(-2px);
+}
+
+
+#Profile .table {
+    color: #594738;
+    border-color: rgba(185, 147, 108, 0.20);
+}
+
+
+#Profile .table thead th {
+    background: #e6e2d3;
+    color: #594738;
+    border: none;
+}
+
+
+#Profile .table tbody tr:hover {
+    background: rgba(218, 194, 146, 0.12);
+}
+
+
+#Profile .nav-tabs {
+    border-bottom: 1px solid rgba(185, 147, 108, 0.25);
+}
+
+
+#Profile .nav-tabs .nav-link {
+    color: #756555;
+    border: none;
+    border-radius: 12px 12px 0 0;
+    transition: 0.3s ease;
+}
+
+
+#Profile .nav-tabs .nav-link:hover {
+    color: #594738;
+    background: rgba(218, 194, 146, 0.18);
+}
+
+
+#Profile .nav-tabs .nav-link.active {
+    color: #46372c;
+    background: #dac292;
+    border: none;
+}
+
+#Profile .form-control,
+#Profile .form-select {
+    border: 1px solid rgba(185, 147, 108, 0.30);
+    background: rgba(255, 255, 255, 0.75);
+    color: #46372c;
+}
+
+
+#Profile .form-control:focus,
+#Profile .form-select:focus {
+    border-color: #b9936c;
+    box-shadow:
+        0 0 0 4px rgba(218, 194, 146, 0.20);
+}
+
+
+
+#Profile .content:nth-child(2) {
+    background: rgba(255, 255, 255, 0.70) !important;
+    border: 1px solid rgba(185, 147, 108, 0.25);
+    box-shadow:
+        0 18px 50px rgba(80, 60, 40, 0.10);
+
+}
+
+#Profile .card {
+    background: rgba(255, 255, 255, 0.78) !important;
+    border: 1px solid rgba(185, 147, 108, 0.22) !important;
+    color: #594738;
+    box-shadow:
+        0 10px 30px rgba(80, 60, 40, 0.08);
+}
+
+
+#Profile .admins .card-img-top,
+#Profile .authors .card-img-top,
+#Profile .customers .card-title,
+#Profile .books .card-img-top {
+    width: 95px !important;
+    height: 95px;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 50%;
+    background: #e6e2d3;
+    border: 2px solid rgba(218, 194, 146, 0.75);
+    box-shadow:
+        0 8px 20px rgba(185, 147, 108, 0.15);
+}
+
+
+#Profile .admins .card-title,
+#Profile .authors .card-title,
+#Profile .customers .card-title,
+#Profile .books .card-title {
+    color: #46372c;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+#Profile .admins i {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #e6e2d3;
+    color: #b9936c !important;
+    font-size: 22px;
+    border: 1px solid rgba(185, 147, 108, 0.25);
+}
+
+
+#Profile .admins>p {
+    color: #756555 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+#Profile .admins {
+    color: #8f6d50 !important;
+    font-size: 25px;
+}
+
+
+#Profile .table {
+    color: #594738;
+    border-color:
+        rgba(185, 147, 108, 0.16);
+    --bs-table-bg: transparent;
+    --bs-table-striped-bg:
+        rgba(230, 226, 211, 0.30);
+    --bs-table-hover-bg:
+        rgba(218, 194, 146, 0.16);
+}
+
+
+#Profile .table thead th {
+    background: #e6e2d3;
+    color: #594738;
+    padding: 14px 12px;
+    border: none;
+}
+
+
+#Profile .table tbody td,
+#Profile .table tbody th {
+    color: #594738;
+    padding: 13px 12px;
+    border-color:
+        rgba(185, 147, 108, 0.12);
+}
+
+
+#Profile .table tbody tr {
+    transition: 0.2s ease;
+}
+
+
+#Profile .table tbody tr:hover {
+    background:
+        rgba(218, 194, 146, 0.14);
+}
+
+#Profile .table a {
+    color: #8f6d50;
+    text-decoration: underline;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#Profile .card .btn-danger {
+    background: #a66b58 !important;
+    border: none !important;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+#Profile .card .btn-danger:hover {
+    background: #874f40 !important;
+    transform: translateY(-2px);
+}
+
+#Profile .badge.text-bg-danger {
+    background: #a66b58 !important;
+    border-radius: 20px;
+    padding: 7px 12px;
+    font-size: 11px;
+    box-shadow:
+        0 4px 12px rgba(166, 107, 88, 0.20);
+}
+
+
+#Profile .card .btn-success {
+    background: #dac292 !important;
+    border: none !important;
+    color: #46372c !important;
+    border-radius: 25px;
+    font-weight: 600;
+    box-shadow:
+        0 6px 15px rgba(185, 147, 108, 0.15);
+    transition: 0.3s ease;
+}
+
+
+#Profile .card .btn-success:hover {
+    background: #b9936c !important;
+
+    color: #fff !important;
+
+    transform: translateY(-2px);
+}
+
+
+#Profile .btn {
+    border-radius: 20px;
+    padding: 7px 14px;
+    white-space: nowrap;
+}
+
+
+#Profile .btn-success {
+    background: #dac292 !important;
+    color: #46372c !important;
+}
+
+#Profile .btn-success:hover {
+    background: #b9936c !important;
+    color: white !important;
+}
+
+#Profile .pagination {
+    margin-top: 22px;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+#Profile .pagination .page-link {
+    color: #594738;
+    background: rgba(255, 255, 255, 0.70);
+    border: 1px solid rgba(185, 147, 108, 0.22);
+    border-radius: 10px !important;
+    padding: 7px 12px;
+    transition: 0.25s ease;
+}
+
+
+#Profile .pagination .page-link:hover {
+    background: #e6e2d3;
+    color: #46372c;
+}
+
+#Profile .pagination .active {
+    background: #dac292;
+    color: #46372c;
+}

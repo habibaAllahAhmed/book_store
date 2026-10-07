@@ -1,0 +1,196 @@
+@media (max-width: 1300px) {
+
+    nav.navbar .navbar-brand {
+        width: 20%;
+    }
+
+    #Register form,
+    #Login form {
+        width: 50%;
+    }
+
+    #Profile .container .row {
+        margin: auto;
+    }
+
+    #Profile .container .content {
+        margin-bottom: 15px;
+    }
+
+    #Profile .container .content .item2 .card {
+        padding: 0 !important;
+        padding-top: 10px !important;
+    }
+
+    #Profile .container .content .item2 .books-items,
+    #Profile .container .content .item2 .books-items .card-body,
+    #Profile .container .content .item2 .books-items .card-body {
+        padding: 0 !important;
+    }
+
+    .card .h5,
+    h5 {
+        font-size: 1rem;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .modal-body .card {
+        margin: auto;
+    }
+
+    #CartBtn {
+        right: -8px !important;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    nav.navbar .navbar-brand {
+        width: 17%;
+    }
+
+    #Profile .container .content .item2 .card {
+        width: 75% !important;
+        margin: auto;
+    }
+
+
+    #Profile .container .content .item .card {
+        width: 80%;
+        margin: auto;
+    }
+
+    .card .h5,
+    h5 {
+        font-size: 1.1rem;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .modal-body .card {
+        margin: auto;
+    }
+
+
+    #CartBtn {
+        right: 20px !important;
+    }
+
+    #Profile .container .content .item2 .books .input-group {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    nav.navbar .navbar-brand {
+        width: 12%;
+    }
+
+
+    #Register form,
+    #Login form {
+        width: 35%;
+    }
+
+    #Profile .container .content .item2 .card {
+        width: 100% !important;
+        margin-right: 10px;
+    }
+
+    #Profile .container .content .item2 .books {
+        width: 95% !important;
+    }
+
+    .card .h5,
+    h5 {
+        font-size: 1.1rem;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .modal-body .card {
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+
+    #Register form,
+    #Login form {
+        width: 30%;
+    }
+
+    #Profile .container .content .item2 .card {
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    nav.navbar .navbar-brand {
+        width: 10%;
+    }
+
+
+    #Profile .container .content .item2 .card {
+        width: 100% !important;
+        margin-right: 10px;
+    }
+
+    #Profile .container .content .item2 .books {
+        width: 95% !important;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    nav.navbar .navbar-brand {
+        width: 8%;
+    }
+
+    #Register form,
+    #Login form {
+        width: 25%;
+    }
+
+    #Profile .container .row {
+        margin: initial;
+    }
+
+    #Profile .container .content .item2 .card {
+        padding: 0 !important;
+        padding-top: 10px !important;
+    }
+
+    #Profile .container .content .item2 .books-items,
+    #Profile .container .content .item2 .books-items .card-body,
+    #Profile .container .content .item2 .books-items .card-body {
+        padding: 0 !important;
+    }
+
+    #Profile .container .content .item .card .h5 {
+        font-size: 1rem;
+    }
+
+    #Profile .container .content .item .card p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+
+    #Register form,
+    #Login form {
+        width: 25% !important;
+    }
+}
