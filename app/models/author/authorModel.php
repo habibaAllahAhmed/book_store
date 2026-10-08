@@ -18,7 +18,7 @@ class AuthorModel extends Model
 
         $stmt->execute([
             'name' => request::input('authorName'),
-            'bio' => request::input('authorBio'),
+            'bio' => request::input('authorBio')?? '',
         ]);
 
         $authorId = $DB->lastInsertId();
