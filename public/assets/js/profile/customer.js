@@ -184,22 +184,57 @@ function(response){
             icon: "success",
             });
 
-        let Alert = document.querySelector("#Ordered-tab-pane .alert");
-console.log(Alert);
+    let Alert = document.querySelector("#Ordered-tab-pane .alert");
 
 if (Alert) {
     Alert.remove();
-}
 
-        $("#Ordered-tab-pane .table tbody").append(`
-                        <tr>
-                <th>${order[0]['order_id']}</th>
-                <td>${order[0]['name']}</td>
-                <td>${order[0]['total_price']}</td>
-                <td><a href='#' onclick="getItemsIntoCart(${order[0]['order_id']} , 'showOrder')">show</a></td>
-                <td>${order[0]['created_at']}</td>
-            </tr>`);
-            
+    $("#Ordered-tab-pane .table tbody").append(`
+        <tr>
+            <th>${order[0]['order_id']}</th>
+            <td>${order[0]['name']}</td>
+            <td>${order[0]['total_price']}</td>
+            <td>
+                <a href='#' onclick="getItemsIntoCart(${order[0]['order_id']}, 'showOrder')">
+                    show
+                </a>
+            </td>
+            <td>${order[0]['created_at']}</td>
+        </tr>
+    `);
+
+    $("#Ordered-tab-pane").append(`
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link disabled" href="#">Previous</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link active" href="#">1</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link disabled" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    `);
+} else {
+    $("#Ordered-tab-pane .table tbody").append(`
+        <tr>
+            <th>${order[0]['order_id']}</th>
+            <td>${order[0]['name']}</td>
+            <td>${order[0]['total_price']}</td>
+            <td>
+                <a href='#' onclick="getItemsIntoCart(${order[0]['order_id']}, 'showOrder')">
+                    show
+                </a>
+            </td>
+            <td>${order[0]['created_at']}</td>
+        </tr>
+    `);
+}
 },
 
 error: 
